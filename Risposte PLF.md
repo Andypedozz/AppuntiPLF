@@ -19,7 +19,8 @@
 
 **05-02-2026**
 * I linguaggi di modellazione sono linguaggi testuali o visuali che consentono di descrivere la struttura e le relazioni dei componenti software di un programma o sistema. Tra i più famosi troviamo UML (Unified Modeling Language).
-<!-- Definizione del combinatore di punto di fisso di Curry o di Turing -->
+* Il combinatore di punto fisso di Turing è: (λx.λy.y(xxy))(λx.λy.y(xxy))
+Il combinatore di punto fisso di Curry è: λf.(λx.f(xx))(λx.f(xx))
 * In Haskell per importare un modulo si usa 
 **05-11-2025**
 **19-09-2025**
