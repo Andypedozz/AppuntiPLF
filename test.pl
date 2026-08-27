@@ -27,3 +27,13 @@ scarta([X|T], L) :-
 scarta([X|T], [X|L]) :-
     \+ (X mod 5 =:= 0, X mod 2 =\= 0),
     scarta(T, L).
+
+% Media Aritmetica
+mediaAritmetica([], 0).
+mediaAritmetica(Lista, M) :-
+    sum_list(Lista, S),
+    length(Lista, L),
+    M is S / L.
+
+% Media Geometrica
+mediaGeometrica([], 0).
